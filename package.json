@@ -1,0 +1,18 @@
+{
+  "name": "scutwork",
+  "version": "0.0.1",
+  "description": "Responsive home management application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chore",
+    "chores",
+    "home",
+    "automation"
+  ],
+  "author": "James Gibson",
+  "author": "Valerie Kraucunas",
+  "license": "MIT"
+}
