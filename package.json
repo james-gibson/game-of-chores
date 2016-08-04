@@ -15,6 +15,10 @@
   "author": "Valerie Kraucunas",
   "license": "MIT",
   "dependencies": {
-    "bower": "^1.7.9"
+    "bower": "^1.7.9",
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "technicolor-logger": "^1.0.0"
   }
 }
