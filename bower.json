@@ -1,0 +1,25 @@
+{
+  "name": "scutwork",
+  "description": "Responsive home management application",
+  "main": "index.js",
+  "authors": [
+    "James Gibson",
+    "Valerie Kraucunas"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "chore",
+    "chores",
+    "home",
+    "automation"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

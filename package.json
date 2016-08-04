@@ -12,7 +12,9 @@
     "home",
     "automation"
   ],
-  "author": "James Gibson",
   "author": "Valerie Kraucunas",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.7.9"
+  }
 }
