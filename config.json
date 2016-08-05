@@ -1,0 +1,26 @@
+{
+    "host": "http://localhost",
+    "port": 4000,
+    "enforceTrailingSlash": true,
+    "enforceLeadingSlash": true,
+    "logRouteRegistration": true,
+    "passport": {
+        "callbackUrl": "",
+        "clientId": "",
+        "clientSecret": ""
+    },
+    "loggers": [{
+        "name": "console",
+        "levels": [
+            "INFO",
+            "WARN",
+            "DEBUG",
+            "ERROR",
+            "FATAL"
+        ],
+        "colors": [{
+            "level": "INFO",
+            "color": "gray"
+        }]
+    }]
+}

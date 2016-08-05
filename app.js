@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const session = require('express-session');
 const config = require('./config.json');
-const routeManagement = require('./src/server/modules/routeManagement.js');
+const routeManagement = require('deepthought-routing');
 
 // Set up global singletons ~ugly yes but requiring a logger in every file....meh
 const logger = require('technicolor-logger');
@@ -27,11 +27,10 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(require('node-compass')({mode: 'expanded'}));
 app.use('/static', express.static(__dirname + '/public'));
 
 
-routeManagement.setup(app);
+routeManagement.setup(app, config);
 
 app.get('/', (req, res) => {
     res.render('index', {});
