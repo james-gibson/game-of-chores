@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('mobileListingSearch:server');
+var debug = require('debug')('game-of-chores:server');
 var http = require('http');
 
 /**
