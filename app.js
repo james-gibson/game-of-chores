@@ -6,7 +6,7 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const config = require('./config.json');
+const config = require('config.json');
 const routeManagement = require('deepthought-routing');
 
 // Set up global singletons ~ugly yes but requiring a logger in every file....meh
